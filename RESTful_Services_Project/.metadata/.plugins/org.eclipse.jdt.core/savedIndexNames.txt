@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/Users/jinxiaoyang/Java_FullStack_SpringBoot_React/RESTful_Services_Project/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
