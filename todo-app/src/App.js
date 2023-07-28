@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FirstComponent, { SecondComponent } from './components/learning-examples/FirstComponent'
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,18 +10,8 @@ class App extends Component {
       <div className="App">
         My Hello World
         <FirstComponent></FirstComponent>
+        <SecondComponent></SecondComponent>
         <ThirdComponent></ThirdComponent>
-      </div>
-    );
-  }
-}
-
-// class component
-class FirstComponent extends Component {
-  render() {
-    return (
-      <div className="firstComponent">
-        First Component
       </div>
     );
   }
