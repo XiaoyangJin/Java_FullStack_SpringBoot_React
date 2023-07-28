@@ -3,25 +3,41 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  // App is the root, every class component we want to show need to claim here
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        My Hello World
+        <FirstComponent></FirstComponent>
+        <ThirdComponent></ThirdComponent>
       </div>
     );
   }
 }
+
+// class component
+class FirstComponent extends Component {
+  render() {
+    return (
+      <div className="firstComponent">
+        First Component
+      </div>
+    );
+  }
+}
+
+// function component
+function ThirdComponent() {
+  return (
+    <div className="thirdComponent">
+      Third Component
+    </div>
+  );
+}
+// class ThirdComponent extends Component {
+//   render() {
+
+//   }
+// }
+
 export default App;
